@@ -24,5 +24,9 @@ public class WebUniversityPage {
     @FindBy(id="login-button")
     public WebElement loginButonu;
 
+// //*[@id='signin_button']
+
+    @FindBy(id="signin_button")
+    public WebElement signInButonu;
 
 }
