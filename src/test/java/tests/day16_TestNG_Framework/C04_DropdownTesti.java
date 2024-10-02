@@ -9,7 +9,7 @@ import utilities.ReusableMethods;
 
 public class C04_DropdownTesti {
 
-    @Test
+    @Test (groups = {"smoke","sistem"})
     public void dropdownTesti(){
 
         //1- https://testotomasyonu.com/form adresine gidin
@@ -50,7 +50,5 @@ public class C04_DropdownTesti {
 
         ReusableMethods.bekle(3);
         Driver.quitDriver();
-
-
     }
 }
